@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height:50px;
+    padding: 0 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.list-iteam{
+    display: flex;
+    gap: 20px;
+}
+.list-iteam li{
+    list-style: none;
+    line-height: 50px;
+}
+.list-iteam li:hover{
+    background-color: black;
+}
+.pander{
+    background-color: aqua;
+    color: white;
+    height: 150px;
+    font-size: 8x;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pander img{
+    margin-top: 10px;
+}
+.pander h4{
+    font-size: small;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.img img {
+    width: 212px; height: 200px;
+
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.content1{
+background-color: aquamarine;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+@media (max-width: 640px) {
+    .list-iteam {
+        width: 200px;
+        gap: 20px;
+    }
+}
+.content1 div p{
+    width: 300px;
+    font-size: 16px;
+}
+.content1 form button{
+    width: 150px;
+    background-color: aquamarine;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.contact form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 20%;
+}
+.contact form input{
+    border: none;
+    border-bottom: 1px solid black ;
+    width: 100%px;    
+}
+.contact form button{
+    background-color: aqua;
+    width: 50px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.end{
+    background-color: darkolivegreen;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+}
+.end div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.end-of-page{
+    background-color: dimgrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
